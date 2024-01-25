@@ -1,9 +1,9 @@
 package Test.Mondai13;
 
 public class T13_3Teacher implements T13_3Person {
-    String name;
-    String job;
-    String subject;
+    private String name;
+    private String job;
+    private String subject;
     
     public T13_3Teacher(String name, String job, String subject) {
         this.name = name; this.job = job; this.subject = subject;
