@@ -14,10 +14,11 @@ public class T13_4Main {
     System.out.print("2個目の整数を入力してください:");
     int num2 = stdIn.nextInt();
 
-    // インスタンス
+    // インスタンスを生成
     T13_4CalcExcuter a = new T13_4CalcExcuter(num1, num2);
 
     // 画面に表示
+    // インスタンス化したオブジェクトを使用
     System.out.println("足し算の結果: " + a.dispAdd()); 
     System.out.println("引き算の結果: " + a.dispSub()); 
     System.out.println("掛け算の結果: " + a.dispMulti()); 
