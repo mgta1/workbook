@@ -1,11 +1,11 @@
 package Test;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Test814 {
     public static void main(String[] args) {
-        HashMap<String, String> season = new HashMap<String, String>();
+        Map<String, String> season = new LinkedHashMap<String, String>();
         season.put("野菜", "季節");
         season.put("キャベツ", "春");
         season.put("スイカ", "夏");

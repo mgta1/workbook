@@ -7,6 +7,8 @@ class T13_1Cook extends T13_1Person {
         super(name, job); this.specialities = specialities;
     }
 
+    
+
     @Override
     void introduce() {
         System.out.println("氏名: " + name);
