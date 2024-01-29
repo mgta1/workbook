@@ -4,12 +4,18 @@ import java.util.Scanner;
 
 public class T14_3 {
     public static void main(String[] args) {
-        Scanner stdIn = new Scanner(System.in);
-        
-        System.out.print("文字列を入力:");
-        String s = stdIn.nextLine();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("文字列を入力: ");
+        String t = sc.nextLine();
 
-        System.out.println("結果文字列 : " + s.substring(0, 10));
-    }
+        StringBuilder n = new StringBuilder();
+
+        if (t.length() >= 11) {
+            n.append(t.substring(0, 10));
+        } else {
+            n.append(t);
+        }
+
+        System.out.println("結果文字列: " + n.toString());
+    }   
 }
-
